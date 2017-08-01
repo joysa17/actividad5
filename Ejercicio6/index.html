@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 6 - grilla</title>
+ 	<style>
+
+ 	@media(max-width: 480px){
+    .col-md-1, .col-md-2, .col-md-3{
+    	clear: both;
+    	}
+ 	}
+
+ 	@media(max-width: 1000px){
+ 	.col-md-1, .col-md-2, .col-md-3{
+ 		width: 33%;
+ 		}
+ 	}
+
+ 	body{
+ 		margin: 0px;
+ 	}
+ 	.img-responsive{
+ 		max-width: 100%;
+ 		display: block;
+ 		margin: auto;
+
+ 	}
+ 	.row{
+ 		clear: both;
+ 		background-color: lightgreen;
+ 		height: 100%;
+ 		text-align: center;
+ 		color: white;
+ 		font-size: 3vh;
+
+ 	}
+
+ 	.col-md-1, .col-md-2, .col-md-3{
+ 		float: left;
+        box-sizing: border-box;
+        padding: 0px 20px 0px 20px;
+        font-size: 3vh;
+
+     }
+
+ 	</style>
+
+</head>
+<body>
+<div class="row">
+	<center>
+	 <h1>HOLA!!</h1>
+	 <p>ESTE ES UN EJERCICIO DE GRILLAS</p>
+	</center>
+</div>
+
+<div class="col-md-1">
+		<img src="feliz.jpg" class="img-responsive">
+	  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+	</div>
+	<div class="col-md-2">
+		<img src="feliz.jpg" class="img-responsive">
+	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+		
+	</div>
+	<div class="col-md-3">
+	<img src="feliz.jpg" class="img-responsive">
+	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+		
+	</div>
+</body>
+</html>
